@@ -4,12 +4,11 @@ public class Star {
 
     private char colour;
     private int number;
-    private ArrayList<Star> neighbours;
+    private ArrayList<Star> neighbours = new ArrayList<>();
 
-    public Star(char colour, int number, ArrayList<Star> neighbours) {
+    public Star(char colour, int number) {
         this.colour = colour;
         this.number = number;
-        this.neighbours = neighbours;
     }
 
     public char getColour() {
@@ -22,5 +21,9 @@ public class Star {
 
     public ArrayList<Star> getNeighbours() {
         return neighbours;
+    }
+
+    public void setNeighbour(Star neighbour) {
+        neighbours.add(neighbour);
     }
 }
