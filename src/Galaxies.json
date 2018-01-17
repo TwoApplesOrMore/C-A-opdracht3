@@ -1,0 +1,128 @@
+[
+  {"galaxy":"A",
+  "stars":[
+    {"star":1, "colour":"R", "neighbour-stars":[2,4]},
+    {"star":2, "colour":"B", "neighbour-stars":[1]},
+    {"star":3, "colour":"Y", "neighbour-stars":[6]},
+    {"star":4, "colour":"R", "neighbour-stars":[1]},
+    {"star":5, "colour":"R", "neighbour-stars":[]},
+    {"star":6, "colour":"Y", "neighbour-stars":[3,9]},
+    {"star":7, "colour":"R", "neighbour-stars":[8]},
+    {"star":8, "colour":"R", "neighbour-stars":[7]},
+    {"star":9, "colour":"Y", "neighbour-stars":[6]}
+  ],
+  "neighbours":["B", "C", "D"]
+  },
+  {"galaxy":"B",
+    "stars":[
+      {"star":1, "colour":"R", "neighbour-stars":[2]},
+      {"star":2, "colour":"R", "neighbour-stars":[1]},
+      {"star":3, "colour":"Y", "neighbour-stars":[]},
+      {"star":4, "colour":"Y", "neighbour-stars":[1]},
+      {"star":5, "colour":"R", "neighbour-stars":[6]},
+      {"star":6, "colour":"Y", "neighbour-stars":[5]},
+      {"star":7, "colour":"B", "neighbour-stars":[]},
+      {"star":8, "colour":"R", "neighbour-stars":[]},
+      {"star":9, "colour":"G", "neighbour-stars":[]}
+    ],
+    "neighbours":["A", "D", "F", "K"]
+  },
+  {"galaxy":"C",
+    "stars":[
+      {"star":1, "colour":"R", "neighbour-stars":[2,4]},
+      {"star":2, "colour":"R", "neighbour-stars":[1,3]},
+      {"star":3, "colour":"B", "neighbour-stars":[2]},
+      {"star":4, "colour":"R", "neighbour-stars":[1,7]},
+      {"star":5, "colour":"G", "neighbour-stars":[6,8]},
+      {"star":6, "colour":"B", "neighbour-stars":[5]},
+      {"star":7, "colour":"R", "neighbour-stars":[4]},
+      {"star":8, "colour":"G", "neighbour-stars":[5]},
+      {"star":9, "colour":"Y", "neighbour-stars":[]}
+    ],
+    "neighbours":["A", "D", "E"]
+  },
+  {"galaxy":"D",
+    "stars":[
+      {"star":1, "colour":"B", "neighbour-stars":[4]},
+      {"star":2, "colour":"B", "neighbour-stars":[3]},
+      {"star":3, "colour":"B", "neighbour-stars":[2]},
+      {"star":4, "colour":"B", "neighbour-stars":[1]},
+      {"star":5, "colour":"B", "neighbour-stars":[]},
+      {"star":6, "colour":"B", "neighbour-stars":[]},
+      {"star":7, "colour":"R", "neighbour-stars":[]},
+      {"star":8, "colour":"R", "neighbour-stars":[]},
+      {"star":9, "colour":"Y", "neighbour-stars":[]}
+    ],
+    "neighbours":["A", "B", "C", "F"]
+  },
+  {"galaxy":"E",
+    "stars":[
+      {"star":1, "colour":"G", "neighbour-stars":[4]},
+      {"star":2, "colour":"G", "neighbour-stars":[3]},
+      {"star":3, "colour":"B", "neighbour-stars":[2]},
+      {"star":4, "colour":"R", "neighbour-stars":[1]},
+      {"star":5, "colour":"Y", "neighbour-stars":[6]},
+      {"star":6, "colour":"Y", "neighbour-stars":[5,9]},
+      {"star":7, "colour":"G", "neighbour-stars":[8]},
+      {"star":8, "colour":"G", "neighbour-stars":[7]},
+      {"star":9, "colour":"Y", "neighbour-stars":[6]}
+    ],
+    "neighbours":["C", "F", "G"]
+  },
+  {"galaxy":"F",
+    "stars":[
+      {"star":1, "colour":"B", "neighbour-stars":[2]},
+      {"star":2, "colour":"B", "neighbour-stars":[1,3]},
+      {"star":3, "colour":"G", "neighbour-stars":[2,6]},
+      {"star":4, "colour":"R", "neighbour-stars":[]},
+      {"star":5, "colour":"G", "neighbour-stars":[]},
+      {"star":6, "colour":"G", "neighbour-stars":[3,9]},
+      {"star":7, "colour":"B", "neighbour-stars":[8]},
+      {"star":8, "colour":"G", "neighbour-stars":[7]},
+      {"star":9, "colour":"G", "neighbour-stars":[6]}
+    ],
+    "neighbours":["B", "D", "F", "H"]
+  },
+  {"galaxy":"G",
+    "stars":[
+      {"star":1, "colour":"G", "neighbour-stars":[]},
+      {"star":2, "colour":"G", "neighbour-stars":[3]},
+      {"star":3, "colour":"G", "neighbour-stars":[2]},
+      {"star":4, "colour":"G", "neighbour-stars":[5]},
+      {"star":5, "colour":"Y", "neighbour-stars":[4]},
+      {"star":6, "colour":"G", "neighbour-stars":[]},
+      {"star":7, "colour":"G", "neighbour-stars":[]},
+      {"star":8, "colour":"Y", "neighbour-stars":[9]},
+      {"star":9, "colour":"Y", "neighbour-stars":[8]}
+    ],
+    "neighbours":["E", "H"]
+  },
+  {"galaxy":"H",
+    "stars":[
+      {"star":1, "colour":"Y", "neighbour-stars":[2]},
+      {"star":2, "colour":"Y", "neighbour-stars":[1,3]},
+      {"star":3, "colour":"Y", "neighbour-stars":[2]},
+      {"star":4, "colour":"Y", "neighbour-stars":[7]},
+      {"star":5, "colour":"G", "neighbour-stars":[6]},
+      {"star":6, "colour":"G", "neighbour-stars":[5]},
+      {"star":7, "colour":"Y", "neighbour-stars":[4]},
+      {"star":8, "colour":"Y", "neighbour-stars":[9]},
+      {"star":9, "colour":"B", "neighbour-stars":[8]}
+    ],
+    "neighbours":["F", "G", "K"]
+  },
+  {"galaxy":"K",
+    "stars":[
+      {"star":1, "colour":"Y", "neighbour-stars":[4]},
+      {"star":2, "colour":"R", "neighbour-stars":[]},
+      {"star":3, "colour":"Y", "neighbour-stars":[]},
+      {"star":4, "colour":"Y", "neighbour-stars":[1,7]},
+      {"star":5, "colour":"G", "neighbour-stars":[]},
+      {"star":6, "colour":"R", "neighbour-stars":[]},
+      {"star":7, "colour":"Y", "neighbour-stars":[4,8]},
+      {"star":8, "colour":"B", "neighbour-stars":[7,9]},
+      {"star":9, "colour":"R", "neighbour-stars":[8]}
+    ],
+    "neighbours":["B", "H"]
+  }
+]
