@@ -1,9 +1,12 @@
 import java.util.ArrayList;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
 
     private Scanner in = new Scanner(System.in);
+
 
     public static void main(String[] args) {
         new Main().run();
@@ -16,22 +19,41 @@ public class Main {
         System.out.println("Please enter the Galaxy you are now...");
         String startGalaxy = askGalaxy();
 
-        System.out.println("Please enter the number of the planet you are now...");
+        System.out.println("Please enter the number of the Star you are now...");
         int startPlanet = askPlanet();
 
-        System.out.println("Start Planet: " + startGalaxy + startPlanet);
+        System.out.println("Start Star: " + startGalaxy + startPlanet);
 
 
         System.out.println("Please enter the Galaxy you want to go to...");
         String endGalaxy = askGalaxy();
 
-        System.out.println("Please enter the number of the Planet you want to go to...");
+        System.out.println("Please enter the number of the Star you want to go to...");
         int endPlanet = askPlanet();
 
-        System.out.println("End Planet: "+endGalaxy+endPlanet);
+        System.out.println("End Star: " + endGalaxy + endPlanet);
 
 
-        
+    }
+
+    public ArrayList<Journey> findJourneys(Star from, Star to){
+        Queue<Journey> journeys = new PriorityQueue<>();
+        ArrayList<Journey> solutions = new ArrayList<>();
+
+        while(!journeys.isEmpty()){
+            Journey currentJourney = journeys.remove();
+            for(Star star : currentJourney.getLastStar().getNeighbours()){
+                Journey nextJourney = new Journey(currentJourney.getRoute(),star);
+                if (star == to) {
+                    solutions.add(nextJourney);
+                }else{
+                    journeys.add(nextJourney);
+                }
+            }
+
+        }
+
+        return solutions;
     }
 
     private String askGalaxy() {
