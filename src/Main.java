@@ -9,8 +9,11 @@ public class Main {
         new Main().run();
     }
 
-    ArrayList<Galaxy> galaxies = Worldbuilder.buildGalaxies();
+    private ArrayList<Galaxy> galaxies = Worldbuilder.buildGalaxies();
 
+    /**
+     * run method of this program. asks the user for a start and end star and returns all routes.
+     */
     public void run() {
 
         System.out.println("--Welcome to the Galaxy Transport System--");
@@ -19,7 +22,7 @@ public class Main {
         String startGalaxy = askGalaxy();
 
         System.out.println("Please enter the number of the Star you are now...");
-        int startPlanet = askPlanet();
+        int startPlanet = askStar();
 
         System.out.println("Start Star: " + startGalaxy + startPlanet);
 
@@ -28,7 +31,7 @@ public class Main {
         String endGalaxy = askGalaxy();
 
         System.out.println("Please enter the number of the Star you want to go to...");
-        int endPlanet = askPlanet();
+        int endPlanet = askStar();
 
         System.out.println("End Star: " + endGalaxy + endPlanet);
 
@@ -45,6 +48,12 @@ public class Main {
 
     }
 
+    /**
+     * method for getting a star object using a galaxy name and a star number.
+     * @param galaxyname the galaxyname
+     * @param starnumber the star number
+     * @return
+     */
     private Star getStar(char galaxyname, int starnumber) {
         for(Galaxy galaxy : galaxies) {
             if(galaxy.getName() == galaxyname) {
@@ -54,7 +63,13 @@ public class Main {
         return null;
     }
 
-    public ArrayList<Journey> findJourneys(Star from, Star to){
+    /**
+     * method for finding all possible routes to a star.
+     * @param from the starting star
+     * @param to the destination star
+     * @return
+     */
+    private ArrayList<Journey> findJourneys(Star from, Star to){
         PriorityQueue<Journey> journeys = new PriorityQueue<>();
         ArrayList<Journey> solutions = new ArrayList<>();
 
@@ -85,6 +100,11 @@ public class Main {
         return solutions;
     }
 
+    /**
+     * method for asking the user to enter a galaxy character.
+     * tests if the input was valid and keeps asking until it is.
+     * @return the galaxy.
+     */
     private String askGalaxy() {
         while (true) {
             String line = in.nextLine();
@@ -98,7 +118,12 @@ public class Main {
         }
     }
 
-    private int askPlanet() {
+    /**
+     * method for asking the user to enter a star number.
+     * tests if the input was valid and keeps asking until it is.
+     * @return the star.
+     */
+    private int askStar() {
         while (true) {
             String line = in.nextLine();
             line = line.toLowerCase();

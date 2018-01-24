@@ -10,6 +10,11 @@ public class Galaxy {
         this.name = name;
     }
 
+    /**
+     * gets the star with the same given number
+     * @param starnumber the given number
+     * @return the star object.
+     */
     public Star getStar(int starnumber) {
         for(Star star : stars) {
             if(star.getNumber() == starnumber) {
@@ -17,10 +22,6 @@ public class Galaxy {
             }
         }
         return null;
-    }
-
-    public void setStars(ArrayList<Star> stars) {
-        this.stars = stars;
     }
 
     public void addStar(Star star) {

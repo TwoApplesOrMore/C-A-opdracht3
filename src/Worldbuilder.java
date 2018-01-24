@@ -13,6 +13,10 @@ public class Worldbuilder {
         return createGalaxies();
     }
 
+    /**
+     * method for building a galaxy from json.
+     * @return an arraylist of galaxys
+     */
     private static ArrayList<Galaxy> createGalaxies() {
         ArrayList<Galaxy> galaxies = new ArrayList<>();
         try {
@@ -43,6 +47,11 @@ public class Worldbuilder {
         return galaxies;
     }
 
+    /**
+     * sets the neighboring stars for a star.
+     * @param galaxy the galaxy
+     * @param stars the stars
+     */
     private static void setStarNeighbours(Galaxy galaxy, JSONArray stars)  {
         for (int y = 0; y<stars.length(); y++) {
             JSONArray neighbours = stars.getJSONObject(y).getJSONArray("neighbour-stars");
@@ -55,6 +64,11 @@ public class Worldbuilder {
 
     }
 
+    /**
+     * sets the neighboring galaxys for the galaxys
+     * @param galaxies the galaxies
+     * @param jsongalaxies the galaxys json array.
+     */
     private static void setGalaxyNeighbours(ArrayList<Galaxy> galaxies, JSONArray jsongalaxies) {
         for(int i = 0; i<jsongalaxies.length(); i++) {
             JSONArray neighbours = jsongalaxies.getJSONObject(i).getJSONArray("neighbours");
