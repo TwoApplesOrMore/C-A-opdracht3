@@ -10,9 +10,11 @@ public class Galaxy {
         this.name = name;
     }
 
-    public Star getStar(int index) {
-        if(index >= 0 && index < stars.size()) {
-            return stars.get(index);
+    public Star getStar(int starnumber) {
+        for(Star star : stars) {
+            if(star.getNumber() == starnumber) {
+                return star;
+            }
         }
         return null;
     }

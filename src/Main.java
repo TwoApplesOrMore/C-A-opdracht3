@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -12,8 +9,10 @@ public class Main {
         new Main().run();
     }
 
+    ArrayList<Galaxy> galaxies = Worldbuilder.buildGalaxies();
+
     public void run() {
-        ArrayList<Galaxy> galaxies = Worldbuilder.buildGalaxies();
+
         System.out.println("--Welcome to the Galaxy Transport System--");
 
         System.out.println("Please enter the Galaxy you are now...");
@@ -33,26 +32,48 @@ public class Main {
 
         System.out.println("End Star: " + endGalaxy + endPlanet);
 
+        ArrayList<Journey> results = findJourneys(getStar(startGalaxy.charAt(0), startPlanet), getStar(endGalaxy.charAt(0), endPlanet));
+        System.out.println(Arrays.toString(results.toArray()) + " number of results: " + results.size());
 
     }
 
+    private Star getStar(char galaxyname, int starnumber) {
+        for(Galaxy galaxy : galaxies) {
+            if(galaxy.getName() == galaxyname) {
+                return galaxy.getStar(starnumber);
+            }
+        }
+        return null;
+    }
+
     public ArrayList<Journey> findJourneys(Star from, Star to){
-        Queue<Journey> journeys = new PriorityQueue<>();
+        PriorityQueue<Journey> journeys = new PriorityQueue<>();
         ArrayList<Journey> solutions = new ArrayList<>();
 
+
+        journeys.add(new Journey(from));
         while(!journeys.isEmpty()){
             Journey currentJourney = journeys.remove();
-            for(Star star : currentJourney.getLastStar().getNeighbours()){
-                Journey nextJourney = new Journey(currentJourney.getRoute(),star);
-                if (star == to) {
-                    solutions.add(nextJourney);
-                }else{
-                    journeys.add(nextJourney);
+            ArrayList<Star> reachableStars = currentJourney.getLastStar().getNeighbours();
+            for(Galaxy galaxy : currentJourney.getLastStar().getParentSystem().getNeighbours()) {
+                if (galaxy.getStar(currentJourney.getLastStar().getNumber()).getColour() == currentJourney.getLastStar().getColour()) {
+                    reachableStars.add(galaxy.getStar(currentJourney.getLastStar().getNumber()));
                 }
             }
 
-        }
+            reachableStars.remove(currentJourney.getLastStar());
+            System.out.println(currentJourney.getLastStar().toString() + " with " + Arrays.toString(reachableStars.toArray()));
 
+
+            for(Star star : reachableStars){
+                if (star == to) {
+                    solutions.add(new Journey(currentJourney.getRoute(), star));
+                } else if(!currentJourney.getRoute().contains(star)){
+                    journeys.add(new Journey(currentJourney.getRoute(), star));
+                }
+            }
+            reachableStars.clear();
+        }
         return solutions;
     }
 

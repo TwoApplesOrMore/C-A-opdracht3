@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
-public class Journey {
+public class Journey implements Comparable{
 
-    private ArrayList<Star> route;
+    private ArrayList<Star> route = new ArrayList<>();
 
     public Journey(Star startStar){
         route.add(startStar);
@@ -19,5 +20,15 @@ public class Journey {
 
     public Star getLastStar(){
         return route.get(route.size()-1);
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(route.toArray());
     }
 }

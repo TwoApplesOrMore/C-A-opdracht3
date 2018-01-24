@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1594e23-32e9-4b95-8736-7dd00909a180" name="Default" comment="" />
+    <list default="true" id="e1594e23-32e9-4b95-8736-7dd00909a180" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/C&amp;Aopdracht3/Main.class" afterPath="$PROJECT_DIR$/out/production/C&amp;Aopdracht3/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Galaxy.java" afterPath="$PROJECT_DIR$/src/Galaxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Journey.java" afterPath="$PROJECT_DIR$/src/Journey.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Star.java" afterPath="$PROJECT_DIR$/src/Star.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Worldbuilder.java" afterPath="$PROJECT_DIR$/src/Worldbuilder.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,28 +21,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Galaxies.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Galaxies.json">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="457">
+              <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+              <folding>
+                <element signature="e#136#137#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <file leaf-file-name="PriorityQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/PriorityQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#226#227#0" expanded="true" />
-                <element signature="e#258#259#0" expanded="true" />
-                <element signature="method#askGalaxy#0;class#Main#0" expanded="false" />
-                <element signature="method#askPlanet#0;class#Main#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="184">
+              <caret line="646" column="0" lean-forward="false" selection-start-line="646" selection-start-column="0" selection-end-line="646" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -41,16 +47,31 @@
       <file leaf-file-name="Journey.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Journey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="263">
+              <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#451#452#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#621#622#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Galaxies.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Galaxies.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,13 +79,24 @@
       <file leaf-file-name="Worldbuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Worldbuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#230#231#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -72,16 +104,9 @@
       <file leaf-file-name="Galaxy.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Galaxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-              <folding>
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#594#595#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,10 +114,19 @@
       <file leaf-file-name="Star.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Star.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
               <folding>
-                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#529#530#0" expanded="true" />
+                <element signature="e#558#559#0" expanded="true" />
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#862#863#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,6 +141,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getstar</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -118,11 +157,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Star.java" />
-        <option value="$PROJECT_DIR$/src/Galaxy.java" />
         <option value="$PROJECT_DIR$/src/Galaxies.json" />
-        <option value="$PROJECT_DIR$/src/Worldbuilder.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/Star.java" />
         <option value="$PROJECT_DIR$/src/Journey.java" />
+        <option value="$PROJECT_DIR$/src/Galaxy.java" />
+        <option value="$PROJECT_DIR$/src/Worldbuilder.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -153,17 +193,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="C-A-opdracht3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C-A-opdracht3" type="462c0819:PsiDirectoryNode" />
+              <item name="C&amp;Aopdracht3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C&amp;Aopdracht3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="C-A-opdracht3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="C-A-opdracht3" type="462c0819:PsiDirectoryNode" />
+              <item name="C&amp;Aopdracht3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C&amp;Aopdracht3" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="C&amp;Aopdracht3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="C&amp;Aopdracht3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -172,6 +216,7 @@
       </pane>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -200,14 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -221,6 +259,13 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="C&amp;Aopdracht3" />
       <envs />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -256,6 +301,12 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -290,12 +341,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -313,11 +358,13 @@
       <workItem from="1515585666082" duration="5683000" />
       <workItem from="1516185855423" duration="1566000" />
       <workItem from="1516189267379" duration="4305000" />
+      <workItem from="1516196328333" duration="896000" />
+      <workItem from="1516793564705" duration="10449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11554000" />
+    <option name="totallyTimeSpent" value="22899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -325,25 +372,25 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31356898" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12137487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12459721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -359,20 +406,163 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="48" column="22" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Journey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worldbuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Galaxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Journey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Worldbuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Galaxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="method#askGalaxy#0;class#Main#0" expanded="false" />
-            <element signature="method#askPlanet#0;class#Main#0" expanded="false" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -383,8 +573,6 @@
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -393,14 +581,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -409,53 +590,38 @@
         <state relative-caret-position="294">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Galaxies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Galaxies.json" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="method#askGalaxy#0;class#Main#0" expanded="false" />
-            <element signature="method#askPlanet#0;class#Main#0" expanded="false" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Galaxies.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="15" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Galaxies.json" />
     <entry file="file://$PROJECT_DIR$/src/Galaxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +630,16 @@
         <state relative-caret-position="294">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
           <folding>
-            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -475,82 +650,110 @@
           <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Galaxies.json">
+    <entry file="file://$PROJECT_DIR$/src/Galaxies.json" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="21">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Galaxies.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="646" column="0" lean-forward="false" selection-start-line="646" selection-start-column="0" selection-end-line="646" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Journey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Star.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="357">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding>
-            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Galaxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#594#595#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Worldbuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Journey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="21" />
-          <folding>
-            <element signature="e#123#124#0" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="457">
+          <caret line="67" column="44" lean-forward="false" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#226#227#0" expanded="true" />
-            <element signature="e#258#259#0" expanded="true" />
-            <element signature="method#askGalaxy#0;class#Main#0" expanded="false" />
-            <element signature="method#askPlanet#0;class#Main#0" expanded="false" />
+            <element signature="e#136#137#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
           </folding>
         </state>
       </provider>
