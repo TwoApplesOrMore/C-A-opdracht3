@@ -33,7 +33,15 @@ public class Main {
         System.out.println("End Star: " + endGalaxy + endPlanet);
 
         ArrayList<Journey> results = findJourneys(getStar(startGalaxy.charAt(0), startPlanet), getStar(endGalaxy.charAt(0), endPlanet));
-        System.out.println(Arrays.toString(results.toArray()) + " number of results: " + results.size());
+        if(results.size() == 0){
+            System.out.println("There are no possible routes to this star.");
+        }else {
+            System.out.println("number of results: " + results.size());
+            for(Journey journey : results){
+                System.out.println(Arrays.toString(journey.getRoute().toArray()));
+            }
+        }
+
 
     }
 
@@ -54,6 +62,7 @@ public class Main {
         journeys.add(new Journey(from));
         while(!journeys.isEmpty()){
             Journey currentJourney = journeys.remove();
+
             ArrayList<Star> reachableStars = currentJourney.getLastStar().getNeighbours();
             for(Galaxy galaxy : currentJourney.getLastStar().getParentSystem().getNeighbours()) {
                 if (galaxy.getStar(currentJourney.getLastStar().getNumber()).getColour() == currentJourney.getLastStar().getColour()) {
@@ -62,14 +71,13 @@ public class Main {
             }
 
             reachableStars.remove(currentJourney.getLastStar());
-            System.out.println(currentJourney.getLastStar().toString() + " with " + Arrays.toString(reachableStars.toArray()));
-
 
             for(Star star : reachableStars){
+                Journey nextJourney = new Journey(new ArrayList<>(currentJourney.getRoute()), star);
                 if (star == to) {
-                    solutions.add(new Journey(currentJourney.getRoute(), star));
+                    solutions.add(nextJourney);
                 } else if(!currentJourney.getRoute().contains(star)){
-                    journeys.add(new Journey(currentJourney.getRoute(), star));
+                    journeys.add(nextJourney);
                 }
             }
             reachableStars.clear();

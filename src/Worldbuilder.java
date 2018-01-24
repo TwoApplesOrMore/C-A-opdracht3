@@ -22,7 +22,7 @@ public class Worldbuilder {
             for(int i = 0; i<jarray.length(); i++) {
                 JSONObject JSONgalaxy = jarray.getJSONObject(i);
 
-                System.out.println("Galaxyname = " + JSONgalaxy.getString("galaxy").charAt(0));
+                //System.out.println("Galaxyname = " + JSONgalaxy.getString("galaxy").charAt(0));
                 Galaxy galaxy = new Galaxy(JSONgalaxy.getString("galaxy").charAt(0));
                 galaxies.add(galaxy);
 
@@ -58,10 +58,10 @@ public class Worldbuilder {
     private static void setGalaxyNeighbours(ArrayList<Galaxy> galaxies, JSONArray jsongalaxies) {
         for(int i = 0; i<jsongalaxies.length(); i++) {
             JSONArray neighbours = jsongalaxies.getJSONObject(i).getJSONArray("neighbours");
-            System.out.println("galaxy " + galaxies.get(i).getName() + " has neighbours: ");
+          //  System.out.println("galaxy " + galaxies.get(i).getName() + " has neighbours: ");
             for(int y = 0; y<neighbours.length(); y++) {
                 char galaxyname = neighbours.get(y).toString().charAt(0);
-                System.out.println(galaxyname);
+                //System.out.println(galaxyname);
                 for(Galaxy galaxy : galaxies) {
                     if(galaxy.getName() == galaxyname) {
                         galaxies.get(i).addNeighbour(galaxy);

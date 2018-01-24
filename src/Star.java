@@ -34,8 +34,9 @@ public class Star {
         neighbours.add(neighbour);
     }
 
+
     @Override
     public String toString() {
-        return this.parentSystem.getName() + "" + this.number + ": " + this.colour;
+        return this.parentSystem.getName() + "" + this.number;
     }
 }
